@@ -50,7 +50,7 @@ diceDOM.style.display = 'block';
 });
   
 document.querySelector('.btn-hold').addEventListener('click', function(){
-    debugger;
+    
    //Add current score to global score
     scores[activePlayer] += roundScore;
   
