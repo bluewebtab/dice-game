@@ -38,6 +38,7 @@ diceDOM.style.display = 'block';
     //3. Update the round score If the rolled number was Not a 1.
     if(dice !== 1){
         //Add score
+        
         roundScore += dice;
         document.querySelector('#current-' + activePlayer).textContent = roundScore;
     }else{
