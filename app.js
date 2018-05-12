@@ -25,7 +25,7 @@ document.getElementById('current-0').textContent = '0';
 document.getElementById('current-1').textContent = '0';
 
 document.querySelector('.btn-roll').addEventListener('click', function(){
-    
+   
 //1. Random number
  var dice = Math.floor(Math.random() * 6) +1;
     
